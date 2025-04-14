@@ -144,7 +144,7 @@ export default function Contact() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <p>Your message has been sent successfully! I'll get back to you soon.</p>
+                  <p>Your message has been sent successfully! I&apos;ll get back to you soon.</p>
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">

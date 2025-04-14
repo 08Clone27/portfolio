@@ -53,7 +53,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Hello, I'm
+            Hello, I&apos;m
           </motion.span>
 
           <motion.div
@@ -157,8 +157,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            I'm a 19-year-old student from Vietnam studying in Ireland. Passionate about engineering
-            and computer science, I'm excited to share my journey and growth through this portfolio.
+            I&apos;m a 19-year-old student from Vietnam studying in Ireland. Passionate about engineering
+            and computer science, I&apos;m excited to share my journey and growth through this portfolio.
           </motion.p>
 
           <motion.div

@@ -19,9 +19,9 @@ export default function PolygonFrame({
   children,
   size = 300,
   className = "",
-  frameWidth = 30, // Not used directly, but kept for API compatibility
+  frameWidth = 30, // eslint-disable-line @typescript-eslint/no-unused-vars
   overlayColor = "linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%)",
-  holeSize = 0.4 // Not used directly, but kept for API compatibility
+  holeSize = 0.4 // eslint-disable-line @typescript-eslint/no-unused-vars
 }: PolygonFrameProps) {
   // Polygon shape (octagon)
   const polygonShape = "polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%)";

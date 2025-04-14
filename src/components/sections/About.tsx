@@ -37,7 +37,7 @@ export default function About() {
             <h3 className="text-2xl font-bold mb-4">Who am I?</h3>
             <p className="text-foreground/80 mb-4">
               My name is Duong Tuan Minh Nguyen. I am nineteen years old and my birthday is on August 27.
-              I've lived in Hanoi, Vietnam 🇻🇳 for my whole life before I went to Ireland to live and
+              I&apos;ve lived in Hanoi, Vietnam 🇻🇳 for my whole life before I went to Ireland to live and
               study for at least the next 5 years.
             </p>
             <p className="text-foreground/80 mb-4">
