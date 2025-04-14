@@ -199,7 +199,7 @@ export default function Hero() {
           >
             <PolygonFrame
               size={500}
-              imageSrc="/images/avatar.jpg"
+              imageSrc="/images/avatar-new.jpg"
               frameWidth={30}
               holeSize={0.6}
               className="cursor-pointer"
