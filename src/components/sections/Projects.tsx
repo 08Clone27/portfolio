@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import dynamic from "next/dynamic";
 
-const PlaceholderImage = dynamic(() => import("@/components/ui/PlaceholderImage"), {
+const VietnamFlag = dynamic(() => import("@/components/ui/VietnamFlag"), {
   ssr: false,
 });
 
@@ -83,14 +83,10 @@ export default function Projects() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ y: -10 }}
               >
-                <div className="relative h-48 overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20" />
-                  <PlaceholderImage
+                <div className="relative h-48 overflow-hidden flex items-center justify-center">
+                  <VietnamFlag
                     width={400}
-                    height={200}
-                    text={project.title}
-                    bgColor={project.color}
-                    textColor="#ffffff"
+                    height={267}
                   />
                 </div>
                 <div className="p-6">
