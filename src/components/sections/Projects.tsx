@@ -43,7 +43,7 @@ export default function Projects() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">My Projects</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-foreground/80 max-w-3xl mx-auto">
-            Check out my project that I've been working on.
+            Check out my project that I&apos;ve been working on.
           </p>
         </motion.div>
 

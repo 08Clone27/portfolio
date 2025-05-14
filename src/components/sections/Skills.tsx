@@ -61,7 +61,7 @@ export default function Skills() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">My Skills</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-foreground/80 max-w-3xl mx-auto">
-            Here are the technologies and tools I'm currently learning and working with.
+            Here are the technologies and tools I&apos;m currently learning and working with.
           </p>
         </motion.div>
 
